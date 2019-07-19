@@ -22,7 +22,7 @@ Enemy.prototype.update = function(dt) {
 
     this.border();
 
-    if ((Math.abs(player.x - this.x) < 40)  && (Math.abs(player.y - this.y) < 20)) {
+    if ((Math.abs(player.x - this.x) < 50)  && (Math.abs(player.y - this.y) < 20)) {
         player.counter = 0;
         player.x = 200;
         player.y = 375;
