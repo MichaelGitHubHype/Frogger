@@ -22,7 +22,6 @@ Enemy.prototype.update = function(dt) {
 
     this.border();
 
-    // checking player collision 
     this.checkPlayerCollision();
 
 };
