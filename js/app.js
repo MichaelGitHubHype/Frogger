@@ -109,12 +109,12 @@ Player.prototype.handleInput = function(e) {
 
     // going down 
     else if (e.keyCode == '40' && player.y < 300) {
-        player.y = (player.y + xSquareDistance);
+        player.y = (player.y + ySquareDistance);
     }
 
     // going left 
     else if (e.keyCode == '37' && player.x > 0) {
-        player.x = (player.x - ySquareDistance);  // height of pixels is 101 
+        player.x = (player.x - xSquareDistance);  // height of pixels is 101 
     }
     else if (e.keyCode == '39' && player.x < 401) {  
        player.x = (player.x + xSquareDistance);
