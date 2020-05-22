@@ -1,7 +1,6 @@
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
-    // Variables applied to each of our instances go here,
-    // we've provided one for you to get started
+    // Defining variable for all instances 
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
@@ -9,8 +8,6 @@ var Enemy = function(x, y, speed) {
     this.x = x;
     this.y = y;
     this.speed = speed;
-    let all_x
-    let distance
 };
 
 // Update the enemy's position, required method for game
